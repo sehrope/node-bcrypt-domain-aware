@@ -1,0 +1,38 @@
+{
+  "name": "bcrypt-domain-aware",
+  "version": "0.1.0",
+  "description": "Domain aware bcrypt",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sehrope/node-bcrypt-domain-aware.git"
+  },
+  "author": {
+    "name": "Sehrope Sarkuni",
+    "email": "sehrope@jackdb.com"
+  },
+  "keywords": [
+    "bcrypt",
+    "domain"
+  ],
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "build": "make build",
+    "test": "make test"
+  },
+  "peerDependencies": {
+    "bcrypt": "^0"
+  },
+  "devDependencies": {
+    "bcrypt": "^0.8.0",
+    "chai": "^1.10",
+    "coffee-coverage": "^0.4.2",
+    "coffee-script": "^1.8.0",
+    "coffeelint": "^1.6.1",
+    "jscoverage": "^0.5.9",
+    "mocha": "^2.0.1"
+  }
+}

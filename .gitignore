@@ -1,0 +1,7 @@
+node_modules
+lib
+test/env
+.env
+lib-cov
+cov
+npm-debug.log
